@@ -1,0 +1,98 @@
+body{
+    font-family: "Caveat", cursive;
+    color: black;
+    background: darkgrey;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+.titulo-rpg{
+    border-bottom: solid 2px rgb(154, 110, 22);
+    margin: 20px;
+    padding: 20px;
+    font-size: 43px;
+    color: color-mix(in srgb, #6D250A 79.6%, #6B5D09 36.2%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    position: static;
+}
+
+.abertura{
+    /* possiveis cores para o fundo: rgb(167 160 144)*/
+    /* #232d37 */
+    background: rgb(36, 60, 74);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://purepng.com/public/uploads/large/purepng.com-witcher-geraltwitcherthe-witcherandrzej-sapkowskiwriterfantasy-serieswitcher-geralt-of-riviawitchersbooksmonster-hunterssupernaturaldeadly-beastsseriesvideo-gamesxbox-1701528660757kk5zg.png), url(https://purepng.com/public/uploads/large/purepng.com-the-witcher-3-ciriwitcherthe-witcherandrzej-sapkowskiwriterfantasy-serieswitcher-geralt-of-riviawitchersbooksmonster-hunterssupernaturaldeadly-beastsseriesvideo-gamesxbox-17015286612358ipvm.png);
+    background-repeat: no-repeat;
+    background-position: right, left;
+    background-position-y: inherit;
+}
+
+
+.chama-texto{
+    margin-right: 5%;
+    order: 2; /* Posiciona o texto no meio */
+    width: 45%;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    position: absolute;
+}
+
+.chama-video{
+    padding-right: 10px;
+    order: 3; /* Posiciona o vídeo à direita */
+    width:30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 20px;
+    padding-top: 145px;
+}
+
+h1{
+    /* Editando o posicionamento da frase preincipal do vídeo.*/
+    font-size: 51px;
+    margin: 0px;
+    margin-left: 70px;
+    margin-top: 10px;
+    color: #966d00;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  font-size: 55px;
+}
+
+p{
+   /* Editabdo a sessão # do vídeo.*/
+   font-size: 17px; 
+   margin-top: 0px;
+   color: #966d00;
+   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-top: 10px;
+    /* background-size: cover; Ajusta a imagem para cobrir todo o elemento */
+}
+
+.categoria-videos img{
+    height: 200px;
+    opacity: 0.80;
+}
+
+.categoria-videos img:hover{
+    opacity: 1;
+    border: 2px solid  color-mix(in srgb, #6D250A 79.6%, #6B5D09 36.2%);
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2{
+    color: color-mix(in srgb, #6D250A 79.6%, #6B5D09 36.2%);
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
